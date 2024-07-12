@@ -2,7 +2,7 @@
 
 ## Description
 
-Latest Capstone is a web project designed to showcase Gryphon Illes Bekaardt's skills, interests, and portfolio. This project provides insights into Gryphon's background in IT, passion for animal care, active lifestyle, and mindfulness practices. It also includes a feature-rich "Save for Later" functionality, allowing users to save and manage items, leave comments, and interact with content dynamically.
+Latest Capstone is a web project showcasing Gryphon Illes Bekaardt's skills, interests, and portfolio. This project provides insights into Gryphon's background in IT, passion for animal care, active lifestyle, and mindfulness practices. It also includes a feature-rich "Save for Later" functionality, allowing users to dynamically save and manage items, leave comments, and interact with content.
 
 ## Table of Contents
 

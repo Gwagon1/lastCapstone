@@ -25,25 +25,25 @@ To install and run this project locally, follow these steps:
 
 ## Usage
 
-####_*Home Page:*_
+######_*Home Page:*_
 
 The home page provides a brief introduction to Gryphon Illes Bekaardt. It includes a navigation menu to access different sections of the site.
 
 
 
-####_*About Page:*_
+######_*About Page:*_
 
 The about page offers more detailed information about Gryphon's background, interests, and activities.
 
 
 
-####_*Contact Page:*_
+######_*Contact Page:*_
 
 The contact page allows users to get in touch with Gryphon through a simple contact form. It also includes a table of culinary treasures from around the world.
 
 
 
-####_*Save for Later:*_
+######_*Save for Later:*_
 
 The "Save for Later" page allows users to save items for future reference. Users can view saved items, leave comments, and interact with the content.
 

@@ -8,11 +8,11 @@ Latest Capstone is a web project showcasing Gryphon Illes Bekaardt's skills, int
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Home Page](screenshots/indexScreenshot.png)
-  - [About Page](#about-page)
-  - [Contact Page](#contact-page)
-  - [Save for Later](#save-for-later)
-- [Credits](#credits)
+  - [Home Page](The home page provides a brief introduction to Gryphon Illes Bekaardt. It includes a navigation menu to access different sections of the site. screenshots/indexScreenshot.png)
+  - [About Page](The about page offers more detailed information about Gryphon's background, interests, and activities. screenshots/aboutScreenshot.png)
+  - [Contact Page](The contact page allows users to get in touch with Gryphon through a simple contact form. It also includes a table of culinary treasures from around the world. screenshots/contactScreenshot.png)
+  - [Save for Later](The "Save for Later" page allows users to save items for future reference. Users can view saved items, leave comments, and interact with the content. screenshots/saveForLaterScreenshot.png)
+- [Credits](This project is created and maintained by Gryphon Illes Bekaardt. For any inquiries, please reach out to bekaardt21@gmail.com.)
 
 ## Installation
 

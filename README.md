@@ -48,4 +48,5 @@ _**Save for Later:**_
 The "Save for Later" page allows users to save items for future reference. Users can view saved items, leave comments, and interact with the content.
 
 ## Credits
-This project is created and maintained by Gryphon Illes Bekaardt. For any inquiries, please reach out to bekaardt21@gmail.com.
+This project is created and maintained by Gryphon Illes Bekaardt. For any inquiries, please reach out to [Gryphon Illes Bekaardt](mailto:bekaardt21@gmail.com)
+.

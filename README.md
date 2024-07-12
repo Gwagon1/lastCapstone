@@ -8,7 +8,7 @@ Latest Capstone is a web project showcasing Gryphon Illes Bekaardt's skills, int
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Home Page](#screenshots/indexScreenshot.png)
+  - [Home Page](screenshots/indexScreenshot.png)
   - [About Page](#about-page)
   - [Contact Page](#contact-page)
   - [Save for Later](#save-for-later)

@@ -19,7 +19,8 @@ Latest Capstone is a web project showcasing Gryphon Illes Bekaardt's skills, int
 To install and run this project locally, follow these steps:
 
 1. Clone the repository from GitHub:
-   ```bash
+
+   bash
    git clone https://github.com/your-username/latest-capstone.git
 
 ## Usage

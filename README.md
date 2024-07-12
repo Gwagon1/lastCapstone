@@ -23,22 +23,26 @@ To install and run this project locally, follow these steps:
    git clone https://github.com/your-username/latest-capstone.git
 
 ## Usage
-Home Page
+
+Home Page:
 
 The home page provides a brief introduction to Gryphon Illes Bekaardt. It includes a navigation menu to access different sections of the site.
 
 
-About Page
+
+About Page:
 
 The about page offers more detailed information about Gryphon's background, interests, and activities.
 
 
-Contact Page
+
+Contact Page:
 
 The contact page allows users to get in touch with Gryphon through a simple contact form. It also includes a table of culinary treasures from around the world.
 
 
-Save for Later
+
+Save for Later:
 
 The "Save for Later" page allows users to save items for future reference. Users can view saved items, leave comments, and interact with the content.
 

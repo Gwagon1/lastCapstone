@@ -1,0 +1,174 @@
+// styles.scss
+
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-family-sans: 'Arial', sans-serif;
+$font-family-serif: 'Times New Roman', serif;
+
+// Mixins
+@mixin font-size($size) {
+    font-size: $size;
+}
+
+// Reset and basic styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Header
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+    h1 {
+        @include font-size(2.5rem);
+    }
+}
+
+// Navigation
+nav {
+    background-color: $secondary-color;
+    ul {
+        list-style: none;
+        display: none;
+
+        li {
+            display: block;
+            a {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                display: block;
+                padding: 0.5rem 1rem;
+
+                &:hover {
+                    background-color: darken($secondary-color, 10%);
+                }
+            }
+        }
+    }
+}
+
+// Sections
+section {
+    padding: 2rem;
+
+    h2 {
+        @include font-size(2rem);
+        margin-bottom: 1rem;
+    }
+
+    p, ul, img, blockquote {
+        margin-bottom: 1rem;
+    }
+
+    // Item elements
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        img {
+            max-width: 50%; // Adjusted to ensure full width within container
+            height: auto; // Ensures images maintain aspect ratio
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+// Footer
+footer {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+// Save for later button
+.save-for-later {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+// Like form button
+.like-form button {
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
+// Animation
+@keyframes slideIn {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Ensure styles for comments display */
+#saved-comments {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#saved-comments h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#saved-comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#saved-comments ul li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  animation: slideIn 0.5s ease-in-out forwards;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#saved-comments ul li .comment-actions {
+  margin-left: auto;
+}
+
+#saved-comments ul li button {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+

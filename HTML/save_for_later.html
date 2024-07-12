@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save for Later</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        /* Basic styling for hiding navigation by default */
+        nav ul {
+            display: none;
+        }
+        nav ul li {
+            display: block;
+        }
+
+        /* Styles for comments */
+        #comments-list {
+            margin-top: 20px;
+        }
+        .comment {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            position: relative;
+            border-radius: 5px;
+        }
+        .comment-actions {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+        
+        .edit-button, .delete-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Save for Later</h1>
+        <div id="menu-icon">☰</div>
+    </header>
+    
+    <!-- Navigation section -->
+    <nav role="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Section for displaying saved items -->
+    <section id="saved-list-container">
+        <h2>Your Saved Items</h2>
+        <ul id="saved-list">
+            <!-- Saved items will be dynamically appended here -->
+        </ul>
+    </section>
+    
+    <!-- Section for leaving a comment -->
+    <section>
+        <h2>Save an Image to leave a comment</h2>
+        <form id="comment-section">
+            <textarea id="comment" placeholder="Leave a comment..."></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Section for displaying comments -->
+    <section id="saved-comments">
+        <h2>Saved Comments</h2>
+        <ul id="comments-list">
+            <!-- Comments will be dynamically appended here -->
+             
+        </ul>
+    </section>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Gryphon Illes Bekaardt</p>
+    </footer>
+</body>
+</html>

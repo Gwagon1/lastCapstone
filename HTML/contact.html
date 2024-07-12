@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is rendered correctly on all devices by setting the viewport properties -->
+    <title>Contact - My Website</title>
+    <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Links to an external CSS stylesheet for styling the webpage -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Includes the jQuery library from a CDN -->
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <!-- Includes the DataTables library for table functionality -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <!-- Links to the CSS for DataTables -->
+    <script src="js/script.js"></script>
+    <!-- Links to an external JavaScript file for additional functionality -->
+</head>
+<body>
+    <!-- The main content of the webpage starts here -->
+    <header>
+        <!-- The header section contains the main heading -->
+        <h1>Contact</h1>
+        <div id="menu-icon">☰</div>
+        <!-- Main heading of the webpage -->
+    </header>
+    
+    <!-- Navigation section for site links -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="save_for_later.html">Save for Later</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <!-- Main section of the webpage -->
+        <h2>Get in Touch</h2>
+        <!-- Subheading for the section -->
+        <p>If you have any questions, feel free to reach out.</p>
+        <!-- Paragraph introducing the contact form -->
+        <form>
+            <!-- Contact form -->
+            <label for="email">Email:</label>
+            <!-- Label for the email input -->
+            <input type="email" id="email" name="email"><br>
+            <!-- Email input field -->
+            <label for="newsletter">Subscribe to our newsletter:</label><br>
+            <!-- Label for the newsletter subscription options -->
+            <input type="radio" id="weekly" name="newsletter" value="weekly">
+            <!-- Radio button for weekly newsletter -->
+            <label for="weekly">Weekly</label><br>
+            <!-- Label for weekly newsletter -->
+            <input type="radio" id="monthly" name="newsletter" value="monthly">
+            <!-- Radio button for monthly newsletter -->
+            <label for="monthly">Monthly</label><br>
+            <!-- Label for monthly newsletter -->
+            <button type="submit">Submit</button>
+            <!-- Submit button for the form -->
+        </form>
+    </section>
+
+    <section>
+        <div class="item" data-item-id="1" data-item-name="Sample Image 5" data-item-image="images/image5.jpg">
+        <img src="images/image5.jpg" alt="Sample Image 5"><button type="submit" class="save-for-later">Save for Later</button>
+        </div>
+    </section>
+
+    <section>
+        <ul>
+            <!-- List of links -->
+            <li><a href="https://www.bbc.com" target="_blank">External Link to BBC</a></li>
+            <!-- Link to an external website -->
+            <li><a href="mailto:bekaardt21@gmail.com">Email Us</a></li>
+            <!-- Link to send an email -->
+        </ul>
+        <h3>World's Culinary Treasures: A Delicious Global Tour!</h3>
+        <!-- Subheading for the table section -->
+        <table id="example" class="display">
+            <!-- Table for displaying culinary treasures -->
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Ingredients</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sushi (Japan)</td>
+                    <td>Rice, Nori, Raw Fish, Soy Sauce, Wasabi</td>
+                </tr>
+                <tr>
+                    <td>Tacos (Mexico)</td>
+                    <td>Tortillas, Beef, Lettuce, Cheese, Salsa</td>
+                </tr>
+                <tr>
+                    <td>Paella (Spain)</td>
+                    <td>Rice, Saffron, Chicken, Seafood, Peas</td>
+                </tr>
+                <tr>
+                    <td>Pasta Carbonara (Italy)</td>
+                    <td>Pasta, Eggs, Parmesan, Pancetta, Black Pepper</td>
+                </tr>
+                <tr>
+                    <td>Tom Yum (Thailand)</td>
+                    <td>Shrimp, Lemongrass, Lime Leaves, Fish Sauce, Chili</td>
+                </tr>
+                <tr>
+                    <td>Poutine (Canada)</td>
+                    <td>French Fries, Cheese Curds, Gravy</td>
+                </tr>
+                <tr>
+                    <td>Kimchi (Korea)</td>
+                    <td>Napa Cabbage, Radish, Garlic, Chili Powder, Fish Sauce</td>
+                </tr>
+                <tr>
+                    <td>Beef Stroganoff (Russia)</td>
+                    <td>Beef, Mushrooms, Onion, Sour Cream, Mustard</td>
+                </tr>
+                <tr>
+                    <td>Falafel (Middle East)</td>
+                    <td>Chickpeas, Garlic, Onion, Cumin, Coriander</td>
+                </tr>
+                <tr>
+                    <td>Bibimbap (Korea)</td>
+                    <td>Rice, Beef, Vegetables, Gochujang, Egg</td>
+                </tr>
+                <tr>
+                    <td>Feijoada (Brazil)</td>
+                    <td>Black Beans, Pork, Sausage, Rice, Kale</td>
+                </tr>
+                <tr>
+                    <td>Coq au Vin (France)</td>
+                    <td>Chicken, Red Wine, Mushrooms, Bacon, Onions</td>
+                </tr>
+                <tr>
+                    <td>Butter Chicken (India)</td>
+                    <td>Chicken, Tomato, Butter, Cream, Spices</td>
+                </tr>
+                <tr>
+                    <td>Bangers and Mash (UK)</td>
+                    <td>Sausages, Potatoes, Onion Gravy</td>
+                </tr>
+                <tr>
+                    <td>Churrasco (Argentina)</td>
+                    <td>Beef, Chimichurri Sauce, Bread</td>
+                </tr>
+                <tr>
+                    <td>Moussaka (Greece)</td>
+                    <td>Eggplant, Ground Beef, Tomato, Béchamel Sauce, Cheese</td>
+                </tr>
+                <tr>
+                    <td>Pad Thai (Thailand)</td>
+                    <td>Rice Noodles, Shrimp, Tofu, Eggs, Peanuts</td>
+                </tr>
+                <tr>
+                    <td>Hummus (Middle East)</td>
+                    <td>Chickpeas, Tahini, Lemon, Garlic, Olive Oil</td>
+                </tr>
+                <tr>
+                    <td>Jollof Rice (West Africa)</td>
+                    <td>Rice, Tomatoes, Onion, Bell Pepper, Spices</td>
+                </tr>
+                <tr>
+                    <td>Ratatouille (France)</td>
+                    <td>Eggplant, Zucchini, Tomato, Onion, Bell Pepper</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <footer>
+        <!-- Footer section -->
+        <p>&copy; 2024 My Website</p>
+        <!-- Copyright notice -->
+    </footer>
+</body>
+</html>
+
+
+
+
+

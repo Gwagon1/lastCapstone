@@ -1,0 +1,90 @@
+<!-- 
+index.html is used as the landing page for the website.
+Create at least 2 other pages (about me, contact details).
+
+Within the entirety of the website, the following elements should be present:
+- At least 5 images
+- At least 3 font sizes (to help differentiate sections)
+- At least 2 external links (maybe to another websute or an email address)
+- At least 1 table
+- At least 1 list (ordered or unordered)
+- At least one submit button form (possibly to subscribe to a newsletter -- don't worry about the functionality of this yet)
+- At least one radio button form (e.g. you could ask a future subscriber what types of recipes they'd like to receive)
+- At least one quote/testimonial
+- At least 2 blocks (i.e text with a background)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is rendered correctly on all devices by setting the viewport properties -->
+    <title>Home - My Website</title>
+    <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Links to an external CSS stylesheet for styling the webpage -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Includes the jQuery library from a CDN -->
+    <script src="js/script.js"></script>
+    <!-- Links to an external JavaScript file for additional functionality -->
+</head>
+<body>
+    <!-- The main content of the webpage starts here -->
+    <header>
+        <!-- The header section contains the main heading -->
+        <h1>Welcome to My Website</h1>
+        <div id="menu-icon">☰</div>
+        <!-- Main heading of the webpage -->
+    </header>
+    
+    <nav>
+        <!-- Navigation section for site links -->
+        <ul>
+            <!-- Link to the home page -->
+            <li><a href="about.html">About Me</a></li>
+            <!-- Link to the about page -->
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Link to the contact page -->
+            <li><a href="save_for_later.html">Save for Later</a></li>
+            <!-- Link to the save for later page -->
+        </ul>
+    </nav>
+    
+    <section>
+        <!-- Main section of the webpage -->
+        <h2>Introduction</h2>
+        <!-- Subheading for the section -->
+        <p>This is the landing page of my website.</p>
+        <!-- Paragraph introducing the webpage -->
+        <div class="item" data-item='{"id":1,"name":"We are ONE","image":"images/image1.jpg"}'>
+        <div class="item" data-item-id="1" data-item-name="We are ONE" data-item-image="images/image1.jpg">
+            <h3>We are ONE</h3>
+            <img src="images/image1.jpg" alt="Item 1">
+            <button class="save-for-later">Save for later</button>
+            <form class="like-form">
+                <button type="submit">Like</button>
+            </form>
+        </div>
+        <div class="item" data-item-id="2" data-item-name="Stronger together" data-item-image="images/image2.jpg">
+            <h3>Stronger together</h3>
+            <img src="images/image2.jpg" alt="Item 2">
+            <button class="save-for-later">Save for later</button>
+            <form class="like-form">
+                <button type="submit">Like</button>
+            </form>
+        </div>
+        <blockquote>"Time flies, so make the most of today."</blockquote>
+        <!-- Blockquote for a quoted text -->
+    </section>
+    
+    <footer>
+        <!-- Footer section of the webpage -->
+        <p>&copy; 2024 My Website</p>
+        <!-- Copyright information -->
+    </footer>
+</body>
+</html>
+
+
